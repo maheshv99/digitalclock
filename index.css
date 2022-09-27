@@ -1,0 +1,253 @@
+body{
+  background-color: #3D087B;
+  
+}
+/* .container{
+  background-color: #3D087B;
+  height: 660px;
+  width: 1300px;
+  
+} */
+
+
+#text {
+  background-color: white;
+  display: flex;
+  width: 12vw;
+  height: 10vh;
+  padding: 0 1vw;
+  border-radius: 12px;
+  align-items: center;    
+
+ 
+}
+
+.class1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  margin: 20px;
+ 
+}
+.class1 img {
+  width: 30%;
+  height: 80%;
+}
+.container {
+  display: grid;
+  grid-template-columns: 500px 650px;
+  grid-gap: 50px;
+  justify-content: center;
+}
+
+
+.box2 {
+  display: grid;
+  grid-template-columns: 5vw auto;
+  grid-gap: 10px;
+  height: 40vh;
+  background-color: white;
+  padding: 30px 0;  
+  border-radius: 10px;
+ 
+}
+
+.images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+.images i{
+  height: 4vh;
+  padding: 8px;
+}
+.box2a {
+  display: flex;
+  justify-content: space-between;
+  color: #3D087B;
+}
+.box2a p {
+  font-size: 1.2rem;
+}
+.option {
+  color: #3D087BDE;
+  border-radius: 1px;
+  margin: 12px 20px;
+  border: 2px solid rgb(188, 178, 178);
+  width: 18vw;
+  height: 5vh;
+ 
+}
+.wakeup {
+  color: white;
+  font-family: 'Baumans', cursive;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+}
+.wakeup::before{
+  content: "";
+  background-color: #EDEDED;
+  border-radius: 15px;
+  position: absolute;
+  height: 10vh;
+  width: 40%;
+  opacity: 0.3;
+}
+.wakeup h3 {
+  margin: 0;
+  position: absolute;
+  left: 12vw;
+}
+.box4{
+  display: grid;
+  grid-template-columns: 19vw 19vw;
+  justify-content: space-between;
+  position: relative;
+  top: 7vh;
+}
+.box4a{
+  height: 5vh;
+  color: #FFFFFF;
+  background-image: 
+  linear-gradient(to right,
+   #CB52F8,
+   #FC5EFF, #F1A7C5);
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10px;
+}
+
+.box4a:hover{
+  background-image: linear-gradient(to right,#F1A7C5, #FC5EFF, #CB52F8);
+}
+
+.box5{
+  color: #F25CFE;
+  line-height: 25px;
+}
+.box5{
+  content: "";
+  background-color: #EDEDED;
+  height: 16vh;
+  border-radius: 15px;
+  position: absolute;
+  left: 20vw;
+  width: 19vw;
+  opacity: 10;
+}
+.box5 span {
+  position: relative;
+  left: 8px;
+}
+.box6 {
+  width: 16vw;
+  color: #858585;
+  background-color: #FFFFFF;
+  padding: 10px 10px 10px 20px;
+  border-radius: 10px;
+  position: relative;
+  top: 2vh;
+  right: 7vw;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+}
+.b1{
+  width: 33vw;
+  height: 15vh;
+  border-radius: 5px;
+  color: #3D087B;
+  background-color: white;
+  position: absolute;
+  top: 5vh;
+  left: 51vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b1 h3 {
+  margin-right: 20px ;
+}
+.boxa{
+  width: 5vw;
+  font-size: 1.6rem;
+  
+  background-image: url("./timeline.svg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.boxb{
+  font-size: 1.6rem;
+}
+.boxc {
+  width: 5vw;
+  font-size: 1.6rem;
+  padding: 18px 0;
+  color: #FFFFFF;
+  background-image: url("./AM_svg.svg");
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.back1 {
+  width: 28%;
+  height: 15vh;
+  border-radius: 10px;
+  background-color: #EDEDED;
+  position: absolute;
+  top: 6.5vh;
+  left: 53.4vw;
+  opacity: 0.8;
+  z-index: -1;
+}
+.back2 {
+  width: 25vw;
+  height: 15vh;
+  border-radius: 10px;
+  background-color: #EDEDED;
+  position: absolute;
+  top: 8vh;
+  left: 55vw;
+  opacity: 0.3;
+  z-index: -2;
+}
+.breakfast {
+   background-color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  font-family: 'Aboreto', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34vw;
+  height: 10vh;
+  color: #8E53F0;
+  position: relative;
+  top: 200px;
+  left: -10px;
+ 
+}
+.lastbox img {
+  width: 33vw;
+  position: relative;
+  top: 240px;
+  left: -10px;
+}
+
+
+.mar{
+  background-color: #3D087B;
+  width: 1px;
+  height:46px;
+
+}
